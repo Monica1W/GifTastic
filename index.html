@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GifTastic Animals</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+	
+</head>
+<body>
+	<div class="container">
+    <h1>Animal Search</h1>
+
+    <!-- Animals will get put here -->
+    <div id="animals-view"></div><br>
+
+    <form id="animal-form">
+      <label for="animal-input">Add a Animal</label>
+      <input type="text" id="animal-input"><br>
+      <!-- Button triggers new animal to be added -->
+      <input id="add-animal" type="submit" value="Submit">
+      
+      <div id="gifs-appear-here"></div>
+    </form>
+
+
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+<!--This is my javascript link-->
+<script type="text/javascript" src="./assets/javascript/gif.js"></script>	
+</body>
+</html>
