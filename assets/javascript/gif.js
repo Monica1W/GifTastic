@@ -48,7 +48,7 @@ function renderButtons() {
 		var animal = $(this).data("name");
 		//giphy api query 
 
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 		//ajax call to get the data from giphy
 		$.ajax({
